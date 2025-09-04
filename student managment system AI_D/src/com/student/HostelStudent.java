@@ -11,7 +11,7 @@ public class HostelStudent extends RegularStudent{
 		this.room_no=room_no;
 	}
 	public void payFee() {
-		System.out.println("the student"+Name+"paid the tution fee + Library fee + Lab fee + hotal fee");
+		System.out.println("the student"+getName()+"paid the tution fee + Library fee + Lab fee + hotal fee");
 	}
 	
 	

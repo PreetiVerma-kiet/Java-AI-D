@@ -1,12 +1,12 @@
 package com.student;
 
  public class Student {
-	String Name;
-	String Department;
-	int RollNo;
-	int Age;
+	private String Name;
+	private String Department;
+	private int RollNo;
+	private int Age;
 	
-	static String Collegename="KIET";
+	private static String Collegename="KIET";
 	public Student(String Name,String Department, int RollNo, int Age ) {
 		this.Name=Name;
 		this.Department=Department;
@@ -32,6 +32,29 @@ package com.student;
 	public void payFee() {
 		System.out.println("The student"+Name+"paid the tution fee");
 		}
-	
+	public String getName() {
+		return Name;
+	}
+	public void setName(String Name) {
+		this.Name=Name;
+	}
+	public String getDepartment() {
+		return Department;
+	}
+	public void setDepartment(String department) {
+		Department = department;
+	}
+	public int getAge() {
+		return Age;
+	}
+	public void setAge(int age) {
+		Age = age;
+	}
+	public static String getCollegename() {
+		return Collegename;
+	}
+	public static void setCollegename(String collegename) {
+		Collegename = collegename;
+	}
 
 }

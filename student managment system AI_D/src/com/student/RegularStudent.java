@@ -13,7 +13,7 @@ public class RegularStudent extends Student{
 		
 	}
 	public void payFee() {
-		System.out.println("the student"+Name+"paid the tution fee + Library fee + Lab fee");
+		System.out.println("the student"+getName()+"paid the tution fee + Library fee + Lab fee");
 	}
 	
 	
